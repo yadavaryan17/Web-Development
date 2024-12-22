@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #0a0a0a,rgb(24, 46, 63));
+}
+.Container{
+    border: 1px solid #494343;
+    padding: 20px;
+    border-radius: 12px;
+    background: transparent;
+
+}
+button{
+    background: transparent;
+    color: aliceblue;
+    border: none;
+    width: 60px;
+    height: 60px;
+    font-size: 22px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: -8px -8px 13px rgba(113, 115, 119, 0.2);
+    cursor: pointer;  
+
+}
+input{
+    width: 320px;
+    font-size: 40px;
+    padding: 14px;
+    color: #fff;
+    border: none;
+    background: transparent;
+    text-align: right;
+    box-shadow: 1px 3px 15px rgba(84 ,84 ,84 ,0.2);
+    cursor: pointer;
+}
+input::placeholder{
+    color: #fff;
+}
+.Operator{
+    color: rgb(12, 194, 12);
+}
+.equalBtn{
+    color: rgb(236, 74, 15);
+}
