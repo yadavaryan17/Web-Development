@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background: url("wave-haikei.png") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 400px;
+    padding: 20px 30px;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    backdrop-filter: blur(4px);
+    box-shadow: 10px 10px 12px #2d1b42,-10px -10px 13px rgb(25, 25, 73);
+}
+h1{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 28px
+}
+.block{
+    color: #fff;
+    font-size: 21px;
+    margin-bottom: 18px;
+}
+input{
+    width: 100%;
+    padding: 10px 8px;
+    font-size: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+input[type = "submit"]{
+    border-radius: 6px;
+    padding: 8px 0px;
+    margin: 15px 0px;
+    background-color: rgb(1, 1, 61);
+    color: #fff;
+    width: 100%;
+}
+input[type = "submit"]:hover{
+    background-color: rgb(11, 11, 77);
+}
+.error{
+    font-size: medium;
+    color: rgb(2, 216, 2);
+}
+.footer_msg p{
+    font-size: 16px;
+    color: #fff;  
+    text-align: center;
+
+}
+.footer_msg p a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer_msg p a:hover{
+    text-decoration: underline;
+}
+.block i{
+    color: aqua;
+    height: 20px;
+    width: 12px;
+}
